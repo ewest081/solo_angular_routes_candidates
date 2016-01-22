@@ -1,7 +1,8 @@
 body {
   background-image: url("/images/bg_flag.jpg");
-  background-color: red;
+  background-color: #ab0000;
   margin: 130px 0 120px 0;
+  font-family: sans-serif;
 }
 
 header, footer, .buttons {
@@ -17,14 +18,14 @@ header, footer {
 
 header {
   height: 110px;
-  border-bottom: solid 10px red;
+  border-bottom: solid 10px #ab0000;
   top: 0;
   margin-bottom: 10px;
 }
 
 footer {
   height: 100px;
-  border-top: solid 10px red;
+  border-top: solid 10px #ab0000;
   bottom: 0;
 }
 
@@ -39,7 +40,7 @@ footer {
 }
 
 .widebox {
-  height: 600px;
+  height: 400px;
   float: left;
   padding: 20px;
 }
@@ -47,7 +48,7 @@ footer {
 .buttons, .content {
   width: 80%;
   margin: 10px auto;
-  border: solid red 2px;
+  border: solid #ab0000 2px;
   border-radius: 10px;
 }
 
@@ -83,13 +84,33 @@ p, h1, h2, h3, h4 {
 }
 
 .dem {
-  background-color: blue;
+  background-color: #000099;
+  border-bottom-color: #000044;
+  border-right-color: #000044;
+  border-left-color: #0000ff;
+  border-top-color: #0000ff;
+}
+
+.dem:hover {
+  background-color: #000077
 }
 
 .rep {
-  background-color: red;
+  background-color: #990000;
+  border-bottom-color: #440000;
+  border-right-color: #440000;
+  border-top-color: #bb0000;
+  border-left-color: #bb0000;
+}
+
+.rep:hover {
+  background-color: #770000;
 }
 
 .main {
   margin: 10px;
+}
+
+.main:hover {
+  background-color: #999999;
 }
