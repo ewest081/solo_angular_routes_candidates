@@ -1,3 +1,75 @@
 body {
-  color: red;
+  background-image: url("/images/bg_flag.jpg");
+  background-color: red;
+  margin: 130px 0 120px 0;
+}
+
+header, footer, .buttons {
+  background-color: white;
+}
+
+header, footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+header {
+  height: 110px;
+  border-bottom: solid 10px red;
+  top: 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 100px;
+  border-top: solid 10px red;
+  bottom: 0;
+}
+
+img {
+  height: 250px;
+  float: right;
+  padding: 10px;
+}
+
+.buttons, .content {
+  width: 80%;
+  margin: 10px auto;
+  border: solid red 2px;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.buttons {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+//I know it's tempting, but don't delete the bg color below
+.content {
+  background-color: white;
+}
+
+p {
+  padding: 10px;
+}
+
+.can{
+  margin: 5px;
+}
+
+.main {
+  margin: 10px;
 }
