@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="clientApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Indecision 2016!</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/styles/output.css">
+
+    <!--Scripts-->
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="vendors/angular-route/angular-route.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+
+    <base href="/">
+
+</head>
+
+
+<header></header>
+
+<body>
+
+    <h1>Candidont's</h1>
+
+    <div class="buttons">
+        <a href="/bernie"><button class="bernie">Bernie Sanders</button></a>
+        <a href="/hillary"><button class="hillary">Hillary Clinton</button></a>
+        <a href="/trump"><button class="trump">Donald Trump</button></a>
+        <a href="/cruz"><button class="cruz">Ted Cruz</button></a>
+    </div>
+
+    <div ng-view>
+
+    </div>
+
+
+</body>
+
+<footer></footer>
+
+</html>
